@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Shopping Page
+    </title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- bootsrtap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- owl carsil cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- header part-->
+    <header id="header">
+        <div class="sprit d-flex justify-content-between px-4 py-1 bg-light">
+            <p class="font-poppins font-14 m-0 text-black-50">
+                Jordan Calderon 430-985 Eleifend St. Duluth Washington 92611 (427) 930-5255
+            </p>
+            <div>
+                <span class="font-poppins font-14 border-start border-end px-3">
+                    <a href="###" class="text-black-50">
+                        Login
+                    </a>
+                </span>
+                <span class="font-poppins font-14 border-end px-3">
+                    <a href="###"  class="text-black-50">
+                        Whishlist(0)
+                    </a>
+                </span>
+            </div>
+        </div>
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary-color px-4">
+            <a class="navbar-brand" href="#">Mobile Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">
+                    On Sale 
+                    <span class="sr-only">
+                        (current)
+                    </span>
+                </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Blog
+                </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Products
+                      <span>
+                        <i class="fas fa-chevron-down"></i>
+                      </span>
+                    </a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    Coming Soon
+                  </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                      Category
+                      <span>
+                        <i class="fas fa-chevron-down"></i>
+                      </span>
+                    </a>
+                </li>
+              </ul>
+              <form class="font-14 font-montserrate">
+                <a href="#" class="bg-primary-color py-2 rounded-pill">
+                    <span class="text-white px-2 font-14">
+                        <i class="fas fa-shopping-cart"></i>
+                    </span>
+                    <span class="bg-light px-3 py-2 rounded-pill">
+                        0
+                    </span>
+                </a>
+              </form>
+            </div>
+          </nav>
+    </header>
+    <!-- header part-->
+    <!-- body part-->
+    <main id="main-site">
+
+        <!-- shopping cart -->
+        <section id="shopping-cart">
+            <div class="container-fluid py-3 my-3" style="width:80%;">
+                <h5 class="font-ubuntu font-18">
+                    Shopping Cart
+                </h5>
+                <div class="row py-2 px-1">
+                    <div class="col-md-8">
+                        <div class="row border-top py-3">
+                            <div class="col-md-2 py-1">
+                                <img src="./assets/products/1.png" alt="" class="img-fluid" style="width: 150px;">
+                            </div>
+                            <div class="col-md-8 py-1">
+                                <h6 class="font-ubuntu font-20">
+                                    Samsung Galaxy 10
+                                </h6>
+                                <small class="font-poppins font-12">
+                                    by Samsung
+                                </small>
+
+                                <!-- product rating -->
+                                <div class="ratingandanswerquestion d-flex">
+                                   <div class="rating text-warning">
+                                   <span>
+                                    <i class="fas fa-star"></i>
+                                   </span>
+                                  <span>
+                                    <i class="fas fa-star"></i>
+                                   </span>
+                                   <span>
+                                    <i class="fas fa-star"></i>
+                                  </span>
+                                   <span>
+                                    <i class="fas fa-star"></i>
+                                  </span>
+                                   <span>
+                                    <i class="far fa-star"></i>
+                                   </span>
+                                </div>
+                            <div class="question font-poppins font-15 px-2">
+                                <a href="####" class="text-decoration-none">
+                                    20,534 ratings
+                                </a>
+                            </div>
+                                </div>
+                               <!-- product rating -->
+
+                               <!-- qty -->
+                            
+                                 <div class="qty d-flex py-2">
+                                   <button type="submit" data-id="product3"  class="qty_up fa fa-angle-up border bg-light" style="padding: 5px;"></button>
+                                   <input type="number"  data-id="product3" class="qty_input font-poppins bg-light border" disabled value="1" placeholder="1">
+                                   <button type="submit" data-id="product3"  class="qty_down fa fa-angle-down border bg-light" style="padding: 5px;"></button>
+                                   <button class="text-danger btn border-end px-3">
+                                    Delete
+                                   </button>
+                                   <button class="text-danger btn px-3">
+                                    Save for Later
+                                   </button>
+                                   
+                                </div>
+                            <!-- qty -->
+
+                            </div>
+                            <div class="col-md-2 py-1">
+                                <div>
+                                    <span id="product-price" class="text-danger font-poppins font-20 text-end">$152</span>
+                                </div>
+                            </div>
+                    
+                        </div>
+                        <div class="row border-top py-3">
+                            <div class="col-md-2 py-1">
+                                <img src="./assets/products/3.png" alt="" class="img-fluid" style="width: 150px;">
+                            </div>
+                            <div class="col-md-8 py-1">
+                                <h6 class="font-ubuntu font-20">
+                                    Redmi Pc
+                                </h6>
+                                <small class="font-poppins font-12">
+                                    by Xiami
+                                </small>
+
+                                <!-- product rating -->
+                                <div class="ratingandanswerquestion d-flex">
+                                   <div class="rating text-warning">
+                                   <span>
+                                    <i class="fas fa-star"></i>
+                                   </span>
+                                  <span>
+                                    <i class="fas fa-star"></i>
+                                   </span>
+                                   <span>
+                                    <i class="fas fa-star"></i>
+                                  </span>
+                                   <span>
+                                    <i class="fas fa-star"></i>
+                                  </span>
+                                   <span>
+                                    <i class="far fa-star"></i>
+                                   </span>
+                                </div>
+                            <div class="question font-poppins font-15 px-2">
+                                <a href="####" class="text-decoration-none">
+                                    20,534 ratings
+                                </a>
+                            </div>
+                                </div>
+                               <!-- product rating -->
+
+                               <!-- qty -->
+                            
+                                 <div class="qty d-flex py-2">
+                                   <button type="submit" data-id="product2" class="qty_up fa fa-angle-up border bg-light" style="padding: 5px;"></button>
+                                   <input type="number" data-id="product2" class="qty_input font-poppins bg-light border" disabled value="1" placeholder="1">
+                                   <button type="submit" data-id="product2" class="qty_down fa fa-angle-down border bg-light" style="padding: 5px;"></button>
+                                   <button class="text-danger btn border-end px-3">
+                                    Delete
+                                   </button>
+                                   <button class="text-danger btn px-3">
+                                    Save for Later
+                                   </button>
+                                   
+                                </div>
+                            <!-- qty -->
+
+                            </div>
+                            <div class="col-md-2 py-1">
+                                <div>
+                                    <span id="product-price" class="text-danger font-poppins font-20 text-end">$152</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-3 mx-3">
+                        <div class="border d-flex justify-content-center py-3">
+                            <p class="font-13 font-poppins text-success"><span>
+                                <i class="fas fa-check text-success"></i>
+                            </span> Your order is eligible for Free Delivery</p>
+                        </div>
+                        <div class="border d-flex justify-content-center align-items-center py-3 flex-wrap flex-column">
+                            <h4 class="font-18">
+                                Subtotal(<span id="no-of-item">
+                                2
+                                </span>
+                                Item):
+                                <span class="text-danger">
+                                    $
+                                    <span class="text-danger" id="deal-price">
+                                        152.00
+                                    </span>
+                                </span>
+                            </h4>
+                            <button type="submit" class="bg-warning btn my-3">Proceed to Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- shopping cart -->
+    
+        <!--new phone -->
+        <section id="new-phone">
+            <div class="container py-5">
+                <h3>
+                    New Phone
+                </h3>
+                <hr>
+                <div class="owl-carousel owl-theme">
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                                <a href="#">
+                                   <img src="./assets/products/1.png" alt="mobile brandes" class="img-fluid">
+                                </a>
+                            <div class="mobilecompanyname text-center">
+                                <h6>
+                                    Samsung Galaxy 10
+                                </h6>
+                                <div class="rating text-warning">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="price font-12 font-poppins py-2">
+                                    <h6>
+                                        $152
+                                    </h6>
+                                </div>
+                                <button type="submit" class="btn bg-warning font-12">
+                                    Add to card
+                                </button>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                            <a href="#">
+                                <img src="./assets/products/2.png" alt="mobile brandes" class="img-fluid">
+                            </a>
+                         <div class="mobilecompanyname text-center">
+                             <h6>
+                                 Redmi Note 7
+                             </h6>
+                             <div class="rating text-warning">
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                             </div>
+                             <div class="price font-12 font-poppins py-2">
+                                 <h6>
+                                     $142
+                                 </h6>
+                             </div>
+                             <button type="submit" class="btn bg-warning font-12">
+                                 Add to card
+                             </button>
+                        </div>
+                    </div>  
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                            <a href="#">
+                                <img src="./assets/products/3.png" alt="mobile brandes" class="img-fluid">
+                            </a>
+                         <div class="mobilecompanyname text-center">
+                             <h6>
+                                 Xiami Mi 10
+                             </h6>
+                             <div class="rating text-warning">
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </div>
+                             <div class="price font-12 font-poppins py-2">
+                                 <h6>
+                                     $130
+                                 </h6>
+                             </div>
+                             <button type="submit" class="btn bg-warning font-12">
+                                 Add to card
+                             </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                            <a href="#">
+                                <img src="./assets/products/4.png" alt="mobile brandes" class="img-fluid">
+                            </a>
+                         <div class="mobilecompanyname text-center">
+                             <h6>
+                                 Q Mobile Lite
+                             </h6>
+                             <div class="rating text-warning">
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </div>
+                             <div class="price font-12 font-poppins py-2">
+                                 <h6>
+                                     $100
+                                 </h6>
+                             </div>
+                             <button type="submit" class="btn bg-warning font-12">
+                                 Add to card
+                             </button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                            <a href="#">
+                                <img src="./assets/products/4.png" alt="mobile brandes" class="img-fluid">
+                            </a>
+                         <div class="mobilecompanyname text-center">
+                             <h6>
+                                 Q Mobile Lite
+                             </h6>
+                             <div class="rating text-warning">
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </div>
+                             <div class="price font-12 font-poppins py-2">
+                                 <h6>
+                                     $100
+                                 </h6>
+                             </div>
+                             <button type="submit" class="btn bg-warning font-12">
+                                 Add to card
+                             </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                                <a href="#">
+                                   <img src="./assets/products/1.png" alt="mobile brandes" class="img-fluid">
+                                </a>
+                            <div class="mobilecompanyname text-center">
+                                <h6>
+                                    Samsung Galaxy 10
+                                </h6>
+                                <div class="rating text-warning">
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fas fa-star"></i>
+                                    </span>
+                                    <span>
+                                        <i class="far fa-star"></i>
+                                    </span>
+                                </div>
+                                <div class="price font-12 font-poppins py-2">
+                                    <h6>
+                                        $152
+                                    </h6>
+                                </div>
+                                <button type="submit" class="btn bg-warning font-12">
+                                    Add to card
+                                </button>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                            <a href="#">
+                                <img src="./assets/products/2.png" alt="mobile brandes" class="img-fluid">
+                            </a>
+                         <div class="mobilecompanyname text-center">
+                             <h6>
+                                 Redmi Note 7
+                             </h6>
+                             <div class="rating text-warning">
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                             </div>
+                             <div class="price font-12 font-poppins py-2">
+                                 <h6>
+                                     $142
+                                 </h6>
+                             </div>
+                             <button type="submit" class="btn bg-warning font-12">
+                                 Add to card
+                             </button>
+                        </div>
+                    </div>  
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                            <a href="#">
+                                <img src="./assets/products/3.png" alt="mobile brandes" class="img-fluid">
+                            </a>
+                         <div class="mobilecompanyname text-center">
+                             <h6>
+                                 Xiami Mi 10
+                             </h6>
+                             <div class="rating text-warning">
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </div>
+                             <div class="price font-12 font-poppins py-2">
+                                 <h6>
+                                     $130
+                                 </h6>
+                             </div>
+                             <button type="submit" class="btn bg-warning font-12">
+                                 Add to card
+                             </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                            <a href="#">
+                                <img src="./assets/products/4.png" alt="mobile brandes" class="img-fluid">
+                            </a>
+                         <div class="mobilecompanyname text-center">
+                             <h6>
+                                 Q Mobile Lite
+                             </h6>
+                             <div class="rating text-warning">
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </div>
+                             <div class="price font-12 font-poppins py-2">
+                                 <h6>
+                                     $100
+                                 </h6>
+                             </div>
+                             <button type="submit" class="btn bg-warning font-12">
+                                 Add to card
+                             </button>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="item py-2 bg-light">
+                        <div class="product font-poppins">
+                            <a href="#">
+                                <img src="./assets/products/4.png" alt="mobile brandes" class="img-fluid">
+                            </a>
+                         <div class="mobilecompanyname text-center">
+                             <h6>
+                                 Q Mobile Lite
+                             </h6>
+                             <div class="rating text-warning">
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="fas fa-star"></i>
+                                 </span>
+                                 <span>
+                                     <i class="far fa-star"></i>
+                                 </span>
+                             </div>
+                             <div class="price font-12 font-poppins py-2">
+                                 <h6>
+                                     $100
+                                 </h6>
+                             </div>
+                             <button type="submit" class="btn bg-warning font-12">
+                                 Add to card
+                             </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--new phone -->
+
+    </main>
+    <!-- body part-->
+    <!-- footer part-->
+    <footer id="footer" class="bg-dark text-white py-5">
+       <div class="container bg-dark text-white py-1">
+        <div class="row font-poppins">
+            <div class="col-lg-3 col-12">
+                <h4 class="font-20">
+                    Mobile Shopee
+                </h4>
+                <p class="font-12 text-white-50">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. veritatis nisi exercitationem molestiae nulla.
+                </p>
+            </div>
+            <div class="col-lg-4 col-12">
+                <h4 class="font-20">
+                    Newletter
+                </h4>
+                <form class="font-poppins font-16 d-flex">
+                    <input type="email" placeholder="Email Address *" class="form-control" style="width: 60%;">
+                    <button type="submit" class="font-poppins btn btn-primary text-white mx-2">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-20 text-white">
+                    Information
+                </h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="##" class="text-white-50 text-decoration-none">
+                        About Us
+                    </a>
+                    <a href="##" class="text-white-50 text-decoration-none">
+                        Delivery Information    
+                    </a>
+                    <a href="##" class="text-white-50 text-decoration-none">
+                        Privacy Policy
+                    </a>
+                    <a href="##" class="text-white-50 text-decoration-none">
+                        Terms & Conditions
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-12">
+                <h4 class="font-20 text-white">
+                    Account
+                </h4>
+                <div class="d-flex flex-column flex-wrap">
+                    <a href="##" class="text-white-50 text-decoration-none">
+                        My Account
+                    </a>
+                    <a href="##" class="text-white-50 text-decoration-none">
+                        Order History    
+                    </a>
+                    <a href="##" class="text-white-50 text-decoration-none">
+                        Wish List
+                    </a>
+                    <a href="##" class="text-white-50 text-decoration-none">
+                        Newsletter
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyrighttext py-5 text-white font-poppins font-16 d-flex justify-content-center">
+            <p>
+                &copy; Copyrights 2023. Design By <span>
+                    <a href="##" class="text-info text-decoration-none">
+                        Abc
+                    </a>
+                </span>
+            </p>
+        </div>
+       </div>
+    </footer>
+    <!-- footer part-->
+    <!-- bootstrap script/javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- owl carousel js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- product filter isotope plugin cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- custom javascript file -->
+    <script src="./index.js"></script>
+</body>
+</html>

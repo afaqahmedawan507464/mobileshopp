@@ -1,0 +1,13 @@
+/* temp special price */
+// button:not(:disabled) {
+//     cursor: pointer;
+//     display: inline-block;
+// }
+#specialprice{
+    .grid .grid-item{
+        margin:15px 15px;
+    }
+    .btn:focus, .btn:active{
+        outline: none;
+    }
+}
